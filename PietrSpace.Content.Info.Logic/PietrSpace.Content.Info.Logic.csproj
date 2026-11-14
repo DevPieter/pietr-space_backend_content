@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>14</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\PietrSpace.Content.Common\PietrSpace.Content.Common.csproj" />
+      <ProjectReference Include="..\PietrSpace.Content.Info.Data\PietrSpace.Content.Info.Data.csproj" />
+    </ItemGroup>
+
+</Project>

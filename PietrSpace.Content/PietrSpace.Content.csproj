@@ -17,6 +17,8 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\PietrSpace.Content.Info.Data.Postgres\PietrSpace.Content.Info.Data.Postgres.csproj" />
+      <ProjectReference Include="..\PietrSpace.Content.Info.Logic\PietrSpace.Content.Info.Logic.csproj" />
       <ProjectReference Include="..\PietrSpace.Content.Quotes.Data.Postgres\PietrSpace.Content.Quotes.Data.Postgres.csproj" />
       <ProjectReference Include="..\PietrSpace.Content.Quotes.Logic\PietrSpace.Content.Quotes.Logic.csproj" />
     </ItemGroup>

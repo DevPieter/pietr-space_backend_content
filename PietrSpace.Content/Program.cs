@@ -1,4 +1,8 @@
 using Microsoft.EntityFrameworkCore;
+using PietrSpace.Content.Info.Data.Postgres.Data;
+using PietrSpace.Content.Info.Data.Postgres.Repositories;
+using PietrSpace.Content.Info.Data.Repositories;
+using PietrSpace.Content.Info.Logic.Services;
 using PietrSpace.Content.Quotes.Data.Postgres.Data;
 using PietrSpace.Content.Quotes.Data.Postgres.Repositories;
 using PietrSpace.Content.Quotes.Data.Repositories;
@@ -16,6 +20,13 @@ builder.Services.AddDbContext<NpgsqlQuoteDataContext>(options =>
 
 builder.Services.AddScoped<IQuoteRepository, QuoteRepository>();
 builder.Services.AddScoped<QuoteService>();
+
+builder.Services.AddDbContext<NpgsqlInfoDataContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("InfoDataContext"))
+);
+
+builder.Services.AddScoped<IInfoRepository, InfoRepository>();
+builder.Services.AddScoped<InfoService>();
 
 var app = builder.Build();
 

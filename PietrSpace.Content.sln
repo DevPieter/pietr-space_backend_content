@@ -12,6 +12,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PietrSpace.Content.Quotes.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PietrSpace.Content.Quotes.Logic", "PietrSpace.Content.Quotes.Logic\PietrSpace.Content.Quotes.Logic.csproj", "{19CED57B-98E2-4A6D-A950-F00A8F9F57BB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Content.Info", "Content.Info", "{FDF8B94A-FA2A-BC8C-5237-A0DF0CE6AC2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PietrSpace.Content.Info.Data", "PietrSpace.Content.Info.Data\PietrSpace.Content.Info.Data.csproj", "{A2EF111E-6E36-43B1-B70A-879D1C278B47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PietrSpace.Content.Info.Data.Postgres", "PietrSpace.Content.Info.Data.Postgres\PietrSpace.Content.Info.Data.Postgres.csproj", "{0D951028-D6F8-4A97-B901-98DC4AD2AA7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PietrSpace.Content.Info.Logic", "PietrSpace.Content.Info.Logic\PietrSpace.Content.Info.Logic.csproj", "{1C208538-FAD4-4217-A18C-F7078BB994C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,10 +46,25 @@ Global
 		{19CED57B-98E2-4A6D-A950-F00A8F9F57BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19CED57B-98E2-4A6D-A950-F00A8F9F57BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19CED57B-98E2-4A6D-A950-F00A8F9F57BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2EF111E-6E36-43B1-B70A-879D1C278B47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2EF111E-6E36-43B1-B70A-879D1C278B47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2EF111E-6E36-43B1-B70A-879D1C278B47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2EF111E-6E36-43B1-B70A-879D1C278B47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D951028-D6F8-4A97-B901-98DC4AD2AA7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D951028-D6F8-4A97-B901-98DC4AD2AA7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D951028-D6F8-4A97-B901-98DC4AD2AA7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D951028-D6F8-4A97-B901-98DC4AD2AA7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C208538-FAD4-4217-A18C-F7078BB994C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C208538-FAD4-4217-A18C-F7078BB994C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C208538-FAD4-4217-A18C-F7078BB994C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C208538-FAD4-4217-A18C-F7078BB994C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9BC1E16C-502E-4F60-8F57-1D877193A69F} = {36FA6A4C-946A-437A-AA43-8B4B81B14F76}
 		{96C7E6C8-9359-4D53-B82D-7C6E4D613BC6} = {36FA6A4C-946A-437A-AA43-8B4B81B14F76}
 		{19CED57B-98E2-4A6D-A950-F00A8F9F57BB} = {36FA6A4C-946A-437A-AA43-8B4B81B14F76}
+		{A2EF111E-6E36-43B1-B70A-879D1C278B47} = {FDF8B94A-FA2A-BC8C-5237-A0DF0CE6AC2A}
+		{0D951028-D6F8-4A97-B901-98DC4AD2AA7E} = {FDF8B94A-FA2A-BC8C-5237-A0DF0CE6AC2A}
+		{1C208538-FAD4-4217-A18C-F7078BB994C0} = {FDF8B94A-FA2A-BC8C-5237-A0DF0CE6AC2A}
 	EndGlobalSection
 EndGlobal
